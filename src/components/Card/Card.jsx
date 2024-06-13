@@ -1,11 +1,12 @@
 import './Card.css';
+import blogImage from '../../assets/image.png';
 
 const Card = () => {
   return (
     <>
       <div className="card">
         <div className="cont-img">
-          <img src="https://dummyimage.com/600x400/000/fff" alt="img-600x400" />
+          <img src={blogImage} alt="img-600x400" />
         </div>
         <div className="cont-info">
           <h4>Titolo del Post</h4>
